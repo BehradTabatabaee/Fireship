@@ -1,0 +1,122 @@
+/* Behrad Tabatabaee
+401103227 */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(18 24 27);
+}
+ul {
+    text-align: center;
+    margin-top: 1vw;
+    margin-left: 25vw;
+}
+ul li {
+    color: honeydew;
+    display: inline;
+    padding: 1vw;
+}
+ul li img {
+    float: left;
+    padding-top: -1vw;
+    margin-top: -0.5vw;
+}
+#pro {
+    font-size: 0.85vw;
+    padding: 0.3vw;
+    color: lime;
+    background-color: rgb(18 24 27) ;
+    outline: none;
+    border: solid 1px lime ;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#labs {
+    font-size: 0.85vw;
+    outline: none;
+    border: none;
+    background-color: rgb(18 24 27);
+    color: honeydew;
+    cursor: pointer;
+}
+#courses {
+    font-size: 0.85vw;
+    outline: none;
+    border: none;
+    background-color: rgb(18 24 27);
+    color: honeydew;
+    cursor: pointer;
+}
+.search {
+    height: 1vw;
+    width: 6vw;
+    padding: 0.7vw;
+    background-color: gray;
+    border-radius: 20px;
+    border: none;
+    transition: 0.3s ease;
+}
+::placeholder {
+    color: white;
+    font-size: 0.7vw;
+}
+.search:hover {
+    border:solid 2px blueviolet ;
+    outline: none;
+    box-shadow: 2px blueviolet;
+}
+.search:focus {
+    outline: none;
+    border: solid 2px blueviolet;
+    border-radius: 5px;
+}
+#login {
+    font-size: 0.85vw;
+    outline: none;
+    border: none;
+    background-color: rgb(18 24 27);
+    color: honeydew;
+    cursor: pointer;
+}
+.Text {
+    padding-left: 0;
+    padding: 2vw;
+    width: 30vw;
+}
+h1 {
+    color: white;
+    font-size: 3vw;
+}
+#start {
+    font-size: 1vw;
+    height: 3vw;
+    width: 10vw;
+    color: white;
+    background-color: rgb(44, 189, 44);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2vw;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#start:hover {
+    opacity: 0.7;
+}
+#idk {
+    margin-top: 1vw;
+    font-size: 2vw;
+    color: white;
+}
+#truth {
+    border-radius: 5px;
+    width: 10vw;
+    height: 3vw;
+    background-color: rgb(227, 49, 49);
+    font-size: 1vw;
+}
+h3 {
+    font-size: 3vw;
+    color: gainsboro;
+}
