@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-position: fixed;
+    background-image: url(wp9754095.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+
+}
+ul{
+    text-align: center;
+    padding: 25px;
+}
+ul li{
+    margin: 70px;
+    display: inline;
+}
+ul li a {
+    font-size: 2vw;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+ul li a:hover {
+    color: red;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 1.5vw;
+}
+h2{
+    color: blue;
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+.beef{
+    display: flex;
+    gap: 30px;
+    background-color: white;
+    width: 30vw;
+    border-radius: 30px;
+    padding: 2vw;
+}
+.mbeef h3{
+    color: black;
+}
+.khamir {
+    color: black;
+    margin-top: 2vw;
+}
+.abeef img {
+    width: 10vw;
+    border-radius: 30px;
+}
+.delpay {
+    margin-top: 1vw;
+    font-size: 1.3vw;
+    color: black;
+}
+.footer {
+    padding: 60px 0;
+    margin-top: 2vw;
+}
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a {
+    opacity: 0.9;
+}
+.footer .copyright {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1vw;
+    color: red;
+}
